@@ -1,0 +1,56 @@
+Package: RMLViz
+Title: Machine learning results visualization helper in R
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Fanli",
+             family = "Zhou",
+             role = c("aut", "cre"),
+             email = "flizhou@gmail.com"),
+      person(given = "Anas",
+             family = "Muhammad",
+             role = c("aut"),
+             email = "anas.m.017@gmail.com."),
+      person(given = "Mike",
+             family = "Chen",
+             role = c("aut"),
+             email = "mike_t_chen@hotmail.com"),
+      person(given = "Tao",
+             family = "Huang",
+             role = c("aut"),
+             email = "tonyhuang0526ubc@gmail.com"))
+Description: The package contains four functions that help visualize machine learning results in R. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Suggests: 
+    testthat (>= 2.1.0),
+    covr,
+    knitr,
+    rmarkdown
+Imports: 
+    vctrs,
+    lifecycle,
+    pillar,
+    dplyr,
+    tidyr,
+    magrittr,
+    ggplot2,
+    broom,
+    pls,
+    gbm,
+    datasets,
+    tibble,
+    purrr,
+    pROC,
+    plotROC,
+    class,
+    e1071,
+    mlbench,
+    caret,
+    caTools,
+    rpart,
+    randomForest
+URL: https://github.com/UBC-MDS/RMLViz
+BugReports: https://github.com/UBC-MDS/RMLViz/issues
+VignetteBuilder: knitr
